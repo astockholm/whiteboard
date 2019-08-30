@@ -1,0 +1,9 @@
+project:
+  name: whiteboard
+  build:
+  - npm install
+  - npm run build
+  memory: 128
+  health:
+    uri: /
+  defaultPort: 80
